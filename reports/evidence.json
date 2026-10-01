@@ -1,0 +1,101 @@
+{
+  "latest_snapshot": "2026-07-31",
+  "churn_rate": {
+    "k": 179,
+    "n": 1990,
+    "rate": 0.0899,
+    "ci95": [
+      0.0782,
+      0.1033
+    ]
+  },
+  "churn_by_type": [
+    {
+      "outlet_type": "Grosir",
+      "n": 385,
+      "rate": 0.0753,
+      "ci_lo": 0.053,
+      "ci_hi": 0.1061,
+      "revenue_lost_idr_m": 4447.8
+    },
+    {
+      "outlet_type": "Minimarket",
+      "n": 522,
+      "rate": 0.0843,
+      "ci_lo": 0.0634,
+      "ci_hi": 0.1113,
+      "revenue_lost_idr_m": 2222.3
+    },
+    {
+      "outlet_type": "Supermarket",
+      "n": 239,
+      "rate": 0.0377,
+      "ci_lo": 0.0199,
+      "ci_hi": 0.07,
+      "revenue_lost_idr_m": 2822.8
+    },
+    {
+      "outlet_type": "Warung",
+      "n": 844,
+      "rate": 0.1149,
+      "ci_lo": 0.0951,
+      "ci_hi": 0.1382,
+      "revenue_lost_idr_m": 1031.1
+    }
+  ],
+  "annualised_revenue_lost_per_month_idr_m": {
+    "mean": 10424.0,
+    "latest": 10524.0
+  },
+  "H1_late_payers": {
+    "question": "Do outlets paying >14 days late on average churn more?",
+    "rate_late": 0.4684,
+    "rate_on_time": 0.0743,
+    "n_late": 79,
+    "n_on_time": 1911,
+    "z": 12.0,
+    "p_value": 3.73e-33
+  },
+  "H2_sku_shrink": {
+    "question": "Is SKU-range change lower (shrinking) for outlets that go on to churn?",
+    "median_churned": -0.205,
+    "median_retained": 0.0,
+    "U": 87217.5,
+    "p_value": 8.98e-25,
+    "effect_rank_biserial": 0.462
+  },
+  "H3_no_visit": {
+    "question": "Do outlets with zero rep visits in 60 days churn more?",
+    "rate_no_visit": 0.2894,
+    "rate_visited": 0.0632,
+    "n_no_visit": 235,
+    "z": 11.38,
+    "p_value": 5.42e-30,
+    "caution": "Observational: reps may already avoid outlets they think are lost (reverse causality). Motivates a randomised holdout in the governance plan."
+  },
+  "H4_region": {
+    "question": "Does churn rate differ by region?",
+    "chi2": 65.46,
+    "dof": 5,
+    "p_value": 9e-13,
+    "rates": {
+      "Jabodetabek": 0.0785,
+      "Jawa Barat": 0.0546,
+      "Jawa Tengah": 0.0633,
+      "Jawa Timur": 0.2077,
+      "Sulawesi Selatan": 0.0549,
+      "Sumatera Utara": 0.0817
+    }
+  },
+  "p_chart_out_of_control": {
+    "Jawa Timur": [
+      "2026-01-31",
+      "2026-02-28",
+      "2026-03-31",
+      "2026-04-30",
+      "2026-05-31",
+      "2026-06-30",
+      "2026-07-31"
+    ]
+  }
+}

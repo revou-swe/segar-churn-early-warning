@@ -1,0 +1,19 @@
+feature,label,psi,status
+tenure_months,New partner (short tenure),0.2173,Watch
+avg_days_late_90d,Paying invoices late,0.0184,Stable
+sku_breadth_90d,Distinct SKUs bought,0.0099,Stable
+share_late_14_90d,Share of invoices >14 days late,0.0085,Stable
+region,Region,0.0077,Stable
+avg_discount_pct_90d,Discount dependence,0.0076,Stable
+visits_60d,Few sales-rep visits,0.0064,Stable
+recency_days,Days since last order,0.0063,Stable
+order_trend,Order frequency trend,0.0059,Stable
+avg_order_value_k,Average order value,0.0056,Stable
+days_since_visit,Long time since rep visit,0.0053,Stable
+revenue_trend,Revenue trend,0.0043,Stable
+revenue_90d_m,Revenue last 90 days,0.0039,Stable
+orders_90d,Orders in last 90 days,0.0022,Stable
+sku_trend,SKU range shrinking,0.0019,Stable
+distance_km,Far from depot,0.0008,Stable
+outlet_type,Outlet type,0.0004,Stable
+complaints_90d,Recent complaints / returns,0.0003,Stable

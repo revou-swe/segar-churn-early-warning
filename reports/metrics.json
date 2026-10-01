@@ -1,0 +1,206 @@
+{
+  "selected_model": "logistic_regression",
+  "selection_metric": "revenue_captured_at_k (validation)",
+  "k": 200,
+  "splits": {
+    "train": {
+      "snapshots": "2025-04-30 .. 2026-01-31",
+      "rows": 20096,
+      "churn_rate": 0.0658
+    },
+    "validation": {
+      "snapshots": "2026-02-28 .. 2026-04-30",
+      "rows": 6026,
+      "churn_rate": 0.0762
+    },
+    "test": {
+      "snapshots": "2026-05-31 .. 2026-07-31",
+      "rows": 5997,
+      "churn_rate": 0.0827
+    }
+  },
+  "validation": {
+    "baseline_recency": {
+      "revenue_captured_at_k": 0.3592,
+      "precision_at_k": 0.4467,
+      "churners_caught_at_k": 0.5857,
+      "revenue_flagged_and_lost_idr_m": 4726.828,
+      "roc_auc": 0.8374,
+      "pr_auc": 0.4645
+    },
+    "baseline_rule_30d_by_revenue": {
+      "revenue_captured_at_k": 0.3805,
+      "precision_at_k": 0.4267,
+      "churners_caught_at_k": 0.5587,
+      "revenue_flagged_and_lost_idr_m": 5021.296,
+      "roc_auc": 0.8308,
+      "pr_auc": 0.3737
+    },
+    "logistic_regression": {
+      "revenue_captured_at_k": 0.6153,
+      "precision_at_k": 0.2417,
+      "churners_caught_at_k": 0.3169,
+      "revenue_flagged_and_lost_idr_m": 8137.0613,
+      "roc_auc": 0.8875,
+      "pr_auc": 0.5778,
+      "brier": 0.046,
+      "mean_predicted": 0.0726,
+      "actual_rate": 0.0762
+    },
+    "logistic_regression_prob_only": {
+      "revenue_captured_at_k": 0.3834,
+      "precision_at_k": 0.4683,
+      "churners_caught_at_k": 0.6139,
+      "revenue_flagged_and_lost_idr_m": 5051.1253,
+      "roc_auc": 0.8875,
+      "pr_auc": 0.5778,
+      "brier": 0.046,
+      "mean_predicted": 0.0726,
+      "actual_rate": 0.0762
+    },
+    "gradient_boosting": {
+      "revenue_captured_at_k": 0.6083,
+      "precision_at_k": 0.2717,
+      "churners_caught_at_k": 0.3566,
+      "revenue_flagged_and_lost_idr_m": 8022.0987,
+      "roc_auc": 0.8883,
+      "pr_auc": 0.6063,
+      "brier": 0.0439,
+      "mean_predicted": 0.0719,
+      "actual_rate": 0.0762
+    },
+    "gradient_boosting_prob_only": {
+      "revenue_captured_at_k": 0.4079,
+      "precision_at_k": 0.4933,
+      "churners_caught_at_k": 0.6471,
+      "revenue_flagged_and_lost_idr_m": 5372.4133,
+      "roc_auc": 0.8883,
+      "pr_auc": 0.6063,
+      "brier": 0.0439,
+      "mean_predicted": 0.0719,
+      "actual_rate": 0.0762
+    }
+  },
+  "test": {
+    "baseline_recency": {
+      "revenue_captured_at_k": 0.4393,
+      "precision_at_k": 0.4767,
+      "churners_caught_at_k": 0.5759,
+      "revenue_flagged_and_lost_idr_m": 5459.2613,
+      "roc_auc": 0.8298,
+      "pr_auc": 0.5094
+    },
+    "baseline_rule_30d_by_revenue": {
+      "revenue_captured_at_k": 0.4741,
+      "precision_at_k": 0.4617,
+      "churners_caught_at_k": 0.5587,
+      "revenue_flagged_and_lost_idr_m": 5915.6867,
+      "roc_auc": 0.8231,
+      "pr_auc": 0.4033
+    },
+    "logistic_regression": {
+      "revenue_captured_at_k": 0.6997,
+      "precision_at_k": 0.2583,
+      "churners_caught_at_k": 0.3143,
+      "revenue_flagged_and_lost_idr_m": 8893.2747,
+      "roc_auc": 0.8877,
+      "pr_auc": 0.6025,
+      "brier": 0.0481,
+      "mean_predicted": 0.0763,
+      "actual_rate": 0.0827
+    },
+    "logistic_regression_prob_only": {
+      "revenue_captured_at_k": 0.3553,
+      "precision_at_k": 0.495,
+      "churners_caught_at_k": 0.598,
+      "revenue_flagged_and_lost_idr_m": 4496.1107,
+      "roc_auc": 0.8877,
+      "pr_auc": 0.6025,
+      "brier": 0.0481,
+      "mean_predicted": 0.0763,
+      "actual_rate": 0.0827
+    },
+    "gradient_boosting": {
+      "revenue_captured_at_k": 0.7238,
+      "precision_at_k": 0.2883,
+      "churners_caught_at_k": 0.3496,
+      "revenue_flagged_and_lost_idr_m": 9187.9813,
+      "roc_auc": 0.9018,
+      "pr_auc": 0.6396,
+      "brier": 0.0451,
+      "mean_predicted": 0.0771,
+      "actual_rate": 0.0827
+    },
+    "gradient_boosting_prob_only": {
+      "revenue_captured_at_k": 0.4887,
+      "precision_at_k": 0.5183,
+      "churners_caught_at_k": 0.6262,
+      "revenue_flagged_and_lost_idr_m": 6146.66,
+      "roc_auc": 0.9018,
+      "pr_auc": 0.6396,
+      "brier": 0.0451,
+      "mean_predicted": 0.0771,
+      "actual_rate": 0.0827
+    }
+  },
+  "test_policy_comparison": {
+    "today_recency_baseline": {
+      "revenue_captured_at_k": 0.4393,
+      "precision_at_k": 0.4767,
+      "churners_caught_at_k": 0.5759,
+      "warung_churners_caught": 0.5281
+    },
+    "v1.0_pure_expected_revenue": {
+      "revenue_captured_at_k": 0.6997,
+      "precision_at_k": 0.2583,
+      "churners_caught_at_k": 0.3143,
+      "warung_churners_caught": 0.0
+    },
+    "v1.1_plus_40_warung_slots": {
+      "revenue_captured_at_k": 0.6699,
+      "precision_at_k": 0.3717,
+      "churners_caught_at_k": 0.4516,
+      "warung_churners_caught": 0.3374
+    },
+    "v1.2_plus_floor_0.05": {
+      "revenue_captured_at_k": 0.6865,
+      "precision_at_k": 0.4383,
+      "churners_caught_at_k": 0.5318,
+      "warung_churners_caught": 0.3418
+    }
+  },
+  "deployed_policy": "v1.2_plus_floor_0.05",
+  "probability_floor": 0.05,
+  "floor_selection_validation": {
+    "0.0": {
+      "revenue_captured_at_k": 0.6119,
+      "precision_at_k": 0.355,
+      "churners_caught_at_k": 0.467,
+      "warung_churners_caught": 0.3424
+    },
+    "0.03": {
+      "revenue_captured_at_k": 0.6079,
+      "precision_at_k": 0.3683,
+      "churners_caught_at_k": 0.4831,
+      "warung_churners_caught": 0.3424
+    },
+    "0.05": {
+      "revenue_captured_at_k": 0.594,
+      "precision_at_k": 0.41,
+      "churners_caught_at_k": 0.5377,
+      "warung_churners_caught": 0.351
+    },
+    "0.08": {
+      "revenue_captured_at_k": 0.5226,
+      "precision_at_k": 0.455,
+      "churners_caught_at_k": 0.5966,
+      "warung_churners_caught": 0.4259
+    },
+    "0.1": {
+      "revenue_captured_at_k": 0.4586,
+      "precision_at_k": 0.4667,
+      "churners_caught_at_k": 0.6116,
+      "warung_churners_caught": 0.4819
+    }
+  }
+}

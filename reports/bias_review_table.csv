@@ -1,0 +1,21 @@
+policy,dimension,group,outlets,churn_rate,share_of_list,churners_reached,false_alarm_rate,revenue_at_risk_reached
+v1.0 pure expected revenue,outlet_type,Grosir,1171,0.078,0.512,0.912,0.207,0.84
+v1.0 pure expected revenue,outlet_type,Minimarket,1566,0.072,0.117,0.336,0.022,0.33
+v1.0 pure expected revenue,outlet_type,Supermarket,724,0.05,0.372,0.944,0.275,0.835
+v1.0 pure expected revenue,outlet_type,Warung,2536,0.101,0.0,0.0,0.0,0.0
+v1.0 pure expected revenue,region,Jabodetabek,1767,0.079,0.247,0.229,0.071,0.561
+v1.0 pure expected revenue,region,Jawa Barat,1206,0.048,0.138,0.293,0.057,0.683
+v1.0 pure expected revenue,region,Jawa Tengah,951,0.054,0.135,0.392,0.068,0.717
+v1.0 pure expected revenue,region,Jawa Timur,959,0.186,0.325,0.404,0.157,0.792
+v1.0 pure expected revenue,region,Sulawesi Selatan,500,0.06,0.092,0.233,0.102,0.714
+v1.0 pure expected revenue,region,Sumatera Utara,614,0.064,0.063,0.179,0.054,0.504
+v1.2 deployed (Warung lane + floor),outlet_type,Grosir,1171,0.078,0.408,0.89,0.152,0.771
+v1.2 deployed (Warung lane + floor),outlet_type,Minimarket,1566,0.072,0.238,0.549,0.056,0.464
+v1.2 deployed (Warung lane + floor),outlet_type,Supermarket,724,0.05,0.15,0.917,0.083,0.783
+v1.2 deployed (Warung lane + floor),outlet_type,Warung,2536,0.101,0.203,0.34,0.015,0.137
+v1.2 deployed (Warung lane + floor),region,Jabodetabek,1767,0.079,0.232,0.436,0.048,0.586
+v1.2 deployed (Warung lane + floor),region,Jawa Barat,1206,0.048,0.122,0.534,0.037,0.709
+v1.2 deployed (Warung lane + floor),region,Jawa Tengah,951,0.054,0.123,0.569,0.05,0.736
+v1.2 deployed (Warung lane + floor),region,Jawa Timur,959,0.186,0.377,0.652,0.141,0.744
+v1.2 deployed (Warung lane + floor),region,Sulawesi Selatan,500,0.06,0.092,0.533,0.083,0.513
+v1.2 deployed (Warung lane + floor),region,Sumatera Utara,614,0.064,0.055,0.256,0.04,0.53

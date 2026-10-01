@@ -1,0 +1,25 @@
+,coef_per_sd
+cat__outlet_type_Warung,-1.576
+num__sku_breadth_90d,-1.225
+cat__outlet_type_Minimarket,-0.783
+log__orders_90d,-0.748
+num__revenue_trend,-0.311
+num__visits_60d,-0.187
+cat__region_Jawa Barat,-0.157
+num__avg_discount_pct_90d,-0.126
+num__sku_trend,-0.08
+log__tenure_months,-0.058
+cat__region_Sumatera Utara,-0.054
+cat__region_Jawa Tengah,-0.051
+log__distance_km,0.003
+num__share_late_14_90d,0.026
+log__complaints_90d,0.132
+cat__region_Sulawesi Selatan,0.192
+log__avg_order_value_k,0.235
+log__days_since_visit,0.245
+log__revenue_90d_m,0.247
+num__order_trend,0.29
+cat__region_Jawa Timur,0.311
+log__avg_days_late_90d,0.418
+cat__outlet_type_Supermarket,0.86
+log__recency_days,0.886
